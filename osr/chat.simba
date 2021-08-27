@@ -164,7 +164,7 @@ begin
         if (Text = 'Click here to continue') then 
           Key := VK_SPACE 
         else 
-          Key := VK_0 + I;
+          Key := VK_1 + I;
           
         Result += [Text, Lines[I], Key];
       end;
